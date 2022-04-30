@@ -1,5 +1,5 @@
 # Branding
-This repository contains branding assets for the Find a Clip website, including:
+This repository contains branding assets for the Find a Clip website.
 
 <details>
   <summary>Preview branding assets</summary>
