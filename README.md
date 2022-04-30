@@ -1,6 +1,8 @@
 # Branding
 This repository contains branding assets for the Find a Clip website.
 
+![diagram](diagrams/architecture.svg)
+
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/findaclip/branding/blob/main/LICENSE) for more
 information.
