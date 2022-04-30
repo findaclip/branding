@@ -17,11 +17,10 @@ This repository contains branding assets for the Find a Clip website, including:
   - [Diagrams](./diagrams) in svg, png and html formats.
 
     ![License: MIT](./diagrams/architecture.png)
-  
 </details>
  
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Distributed under the MIT License. See [LICENSE](https://github.com/findaclip/branding/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more
 information.
