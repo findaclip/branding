@@ -1,27 +1,27 @@
-<p align="center">
-  <a href="https://github.com/rmenai-blueprints/nuxt">
-    <img src="banner/512.png" alt="Logo" width=384>
-  </a>
-
-  <p align="center">
-    <a href="https://v3.nuxtjs.org/getting-started/quick-start"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://rmenai-blueprints.github.io/nuxt/">View Demo</a>
-    ·
-    <a href="https://github.com/rmenai-blueprints/nuxt/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
-    ·
-    <a href="https://github.com/rmenai-blueprints/nuxt/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
-  </p>
-</p>
-
-
 # Branding
-This repository contains branding assets for the Find a Clip website.
+This repository contains branding assets for the Find a Clip website, including:
 
+<details>
+  <summary>Preview branding assets</summary>
+  
+  - [Logos](./logo/original) (and [favicons](./logo/favicon)) starting from sizes of 64x64 to 512x512.
+
+    ![License: MIT](./logo/original/128x128.png)
+    ![License: MIT](./logo/circular/64x64.png)
+    ![License: MIT](./logo/favicon/favicon-32x32.png)
+
+  - [Banners](./banner) of sizes up to 1024.
+
+    ![License: MIT](./banner/512.png)
+
+  - [Diagrams](./diagrams) in svg, png and html formats.
+
+    ![License: MIT](./diagrams/architecture.png)
+  
+</details>
+ 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Distributed under the MIT License. See [LICENSE](https://github.com/findaclip/branding/blob/main/LICENSE) for more
 information.
-
-## Contact
-Menai Rami - [@menai_rami](https://twitter.com/menai_rami) - rami.menai@outlook.com
