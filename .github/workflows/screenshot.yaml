@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   deploy:
-    name: Screenshot & Post
+    name: Screenshot & Push
     runs-on: ubuntu-latest
 
     steps:
@@ -13,3 +13,8 @@ jobs:
         with:
           source: https://findaclip.netlify.app/
           destination: website.png
+
+      - name: Push new commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update website screenshot
