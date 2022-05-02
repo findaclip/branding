@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Screenshot website
         id: screenshot
         uses: swinton/screenshot-website@v1.x
@@ -19,7 +22,6 @@ jobs:
         run: |
           echo "Screenshot found: ${{ steps.screenshot.outputs.path }}"
           mkdir -p screenshots && mv ${{ steps.screenshot.outputs.path }} screenshots/website.png
-          ls
       
       - name: Push new commit
         uses: stefanzweifel/git-auto-commit-action@v4
