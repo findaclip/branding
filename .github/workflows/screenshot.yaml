@@ -15,7 +15,7 @@ jobs:
         id: screenshot
         uses: swinton/screenshot-website@v1.x
         with:
-          source: https://charvey.live/
+          source: https://findaclip.netlify.app/
           destination: website.png
           delay: 2
       
