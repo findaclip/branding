@@ -19,6 +19,7 @@ jobs:
         run: |
           echo "Screenshot found: ${{ steps.screenshot.outputs.path }}"
           mkdir -p screenshots && mv ${{ steps.screenshot.outputs.path }} screenshots/website.png
+          ls
       
       - name: Push new commit
         uses: stefanzweifel/git-auto-commit-action@v4
