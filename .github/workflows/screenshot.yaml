@@ -15,7 +15,7 @@ jobs:
         id: screenshot
         uses: swinton/screenshot-website@v1.x
         with:
-          source: https://findaclip.netlify.app/
+          source: https://github.com/
           destination: website.png
       
       - name: Move image to screenshots folder
