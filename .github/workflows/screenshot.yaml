@@ -15,8 +15,9 @@ jobs:
         id: screenshot
         uses: swinton/screenshot-website@v1.x
         with:
-          source: https://copilot.github.com/
+          source: https://charvey.live/
           destination: website.png
+          delay: 2
       
       - name: Move image to screenshots folder
         run: |
