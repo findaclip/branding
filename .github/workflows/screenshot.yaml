@@ -9,11 +9,17 @@ jobs:
 
     steps:
       - name: Screenshot website
+        id: screenshot
         uses: swinton/screenshot-website@v1.x
         with:
           source: https://findaclip.netlify.app/
           destination: website.png
-
+      
+      - name: Move image to screenshots folder
+        run: |
+          echo "Screenshot found: ${{ steps.screenshot.outputs.path }}"
+          mkdir -p screenshots && mv ${{ steps.screenshot.outputs.path }} screenshots/website.png
+      
       - name: Push new commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
